@@ -180,3 +180,61 @@ body {
     background-color: var(--eerie-black);
     color: white;
 }
+
+@media (max-width: 768px) {
+    body {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 1rem 0;
+      overflow-x: hidden;
+    }
+  
+    .card-wrapper {
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+  
+    .maincard {
+      width: 95%;
+      padding: 1.5rem 1rem;
+      margin-top: 130px;
+      max-height: none;
+    }
+  
+    .cardimg {
+      width: 35vw;
+      max-width: 120px;
+      transform: translateX(-50%) translateY(10%);
+      border-width: 6px;
+    }
+  
+    .content h1 {
+      font-size: 7vw;
+    }
+  
+    .content h2 {
+      font-size: 4vw;
+    }
+  
+    .content p {
+      font-size: 4vw;
+      padding: 1rem;
+    }
+  
+    .footer {
+      width: 90%;
+      padding: 1rem;
+    }
+  
+    .footer i {
+      font-size: 8vw;
+      padding: 0.5rem;
+    }
+  
+    .footer button {
+      font-size: 4vw;
+      padding: 0.8rem;
+      width: 100%;
+    }
+  }
